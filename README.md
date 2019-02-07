@@ -71,6 +71,12 @@ You have 3 hours to finish this task. Good luck, and may the force be with you.
 
 If you come up with **ANY** doubts, do **NOT** hesitate to ask, as you have limited time to finish. As soon as you don't understand somethig, please just ask.
 
+### HTTP Requests
+
+A `gem` called `faraday` comes already installed with the project. But feel free to use any HTTP client.
+
+The documentation for `faraday` can (be found here)[https://github.com/lostisland/faraday].
+
 ## Setup
 
 For this to work you need to install PostgreSQL database in your computer and start a server.
