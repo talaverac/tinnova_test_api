@@ -14,7 +14,7 @@ We've already started a project for you, so it's easier to work with.
 * Rails version
   5.2
 
-### Authentication
+### Authentication
 The user authentication is already managed with JWT. For every request regarding beers, you'll need to attach the token generated with the `login` method as a header. The controller already contains an instance variable called `@current_user` which is an `User` object extracted from Database.
 
 For you to login, you need to make a **POST** request to the route `/auth/login`, with the json:
@@ -67,11 +67,11 @@ Again, keep in mind, that I do **NOT** want to know anyone else's favorite beer,
 
 All responses **MUST** be in `JSON` format, and will be tested with Postman.
 
-You have 3 hours to finish this task. Good luck, and may the force be with you.
+You have 24 hours to finish this task. Good luck, and may the force be with you.
 
 If you come up with **ANY** doubts, do **NOT** hesitate to ask, as you have limited time to finish. As soon as you don't understand somethig, please just ask.
 
-### HTTP Requests
+### HTTP Requests
 
 A `gem` called `faraday` comes already installed with the project. But feel free to use any HTTP client.
 
