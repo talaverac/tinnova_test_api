@@ -51,15 +51,19 @@ The user, must be able to get all beers, showing only relevant information:
 
 Of course, the user should be able to filter by `name` or by `abv`.
 
-When a user has seen a beer (shown/processed by the API), it **MUST** be saved in a `BeerHistoric` table, with the `date` and `time` the user saw it. When showing the beer list, the field `seen_at` should contain the information.
+When a user has seen a beer (shown/processed by the API), it **MUST** be saved in a `Beers` table, with the `date` and `time` the user saw it. When showing the beer list, the field `seen_at` should contain the information.
 
-You have to generate the `BeerHistoric` model & migration.
+You have to generate the `Beers` model & migration.
 
 Keep in mind that as a user, I don't want to know when other users have seen a beer. If I haven't seen it and others have, I wouldn't know.
 
 After I've seen quite a list of beers, I, as a user, would like to save one as my favorite.
 
 Create an endpoint that will save the beer as my favorite. By creating the endpoint, you need to create the route, migration and model.
+
+I also want to be able to retrieve my favorite beer. So, create an endpoint to `get` it.
+
+My favorite beer should be seen in the `get all` beers endpoint, with the property `favorite: true`.
 
 Place all endpoint operations inside the `beer` controller.
 
@@ -71,11 +75,15 @@ You have 24 hours to finish this task. Good luck, and may the force be with you.
 
 If you come up with **ANY** doubts, do **NOT** hesitate to ask, as you have limited time to finish. As soon as you don't understand somethig, please just ask.
 
+## Extra Credit
+
+Install RSpec and use it to write out tests for your application. Write as many as you consider appropiate.
+
 ### HTTP Requests
 
 A `gem` called `faraday` comes already installed with the project. But feel free to use any HTTP client.
 
-The documentation for `faraday` can (be found here)[https://github.com/lostisland/faraday].
+The documentation for `faraday` can [be found here](https://github.com/lostisland/faraday).
 
 ## Setup
 
