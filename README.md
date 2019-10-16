@@ -1,4 +1,4 @@
-# Factoro Api Test
+# Tinnova Api Test
 
 Welcome!
 
@@ -89,7 +89,7 @@ The documentation for `faraday` can [be found here](https://github.com/lostislan
 
 For this to work you need to install PostgreSQL database in your computer and start a server.
 
-You'll need Ruby v2.6.0 and Rails v5.2. 
+You'll need Ruby v2.6.0 and Rails v5.2.
 
 Clone the project, and create your branch. Use any name you'd like. We recommend you using something like `{name}_test_solution`.
 
