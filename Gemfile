@@ -30,13 +30,14 @@ gem 'rack-cors'
 
 # Use Faraday as HTTP client
 gem 'faraday'
+gem 'rest-client'
 
 # Use JWT as authenticator
 gem 'jwt'
 
 # Use Active Model Serializers
 gem 'active_model_serializers', '~> 0.10.0'
-
+gem 'interactor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

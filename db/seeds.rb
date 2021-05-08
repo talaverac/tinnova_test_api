@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(name: 'Admin', last_name: 'Admin', username: 'admin', email: 'admin@factoro_test.com', password: 'admin', password_confirmation: 'admin')
+User.create(name: 'Pastor', last_name: 'Talavera', username: 'talavecp', email: 'talaveracp@gmail.com', password: 'admin', password_confirmation: 'admin')
